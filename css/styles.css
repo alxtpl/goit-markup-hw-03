@@ -46,6 +46,12 @@ ul {
 a {
   text-decoration: none;
 }
+/* header */
+.header-pos {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-left: 215px;
+}
 /* Logo */
 
 .logo {
@@ -75,10 +81,22 @@ a {
 .current {
   color: var(--fourth-text-color);
 }
+/* main */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* Order banner */
-.banerbgcolor {
+.baner {
   background-color: var(--eights-text-color);
-  /* сделал чтоб видно было текст */
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .banertitle,
 .banerbutton,
@@ -97,6 +115,10 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 .banerbutton {
   background-color: var(--fourth-text-color);
@@ -109,31 +131,77 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  border-radius: 4px;
+  border-style: none;
+}
+.section {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* Highlights */
+.highlights {
+  padding-bottom: 47px;
+}
+.highlights li,
+.highlights p {
+  max-width: 270px;
+}
 .hightitle {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 /* What we do */
+.whatwedo {
+  padding-top: 47px;
+}
 .whatwedotitle,
 .teamtitle {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
 }
 /* Team */
+.team li {
+  width: 270px;
+  box-shadow: 0 4px 2px -1px rgba(172, 186, 198);
+  border-style: none;
+  border-radius: 4px;
+}
+.teammember {
+  font-weight: 500;
+}
+.teamtitle {
+  padding-bottom: 50px;
+}
 .teammember,
 .teamrole {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 30px;
 }
 .teamrole {
+  margin-top: 10px;
+  padding-bottom: 30px;
   font-weight: 400;
 }
 
@@ -149,7 +217,10 @@ main p {
 .portbody {
   color: var(--first-text-color);
 }
-
+.buttonsfilt {
+  padding-top: 94px;
+  padding-bottom: 34px;
+}
 .portbody button {
   background-color: var(--sixth-text-color);
   color: var(--first-text-color);
@@ -162,11 +233,15 @@ main p {
   cursor: pointer;
   border-style: none;
   border-radius: 4px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 .portbody button:hover,
 .portbody button:focus {
   background-color: var(--fourth-text-color);
-  box-shadow: 0 4px 2px -1px rgba(172, 186, 198, 0.418);
+  box-shadow: 0 4px 2px -1px rgba(172, 186, 198);
 }
 .portbody h2 {
   font-weight: 500;
@@ -180,4 +255,39 @@ main p {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+.portlist h2 {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 4px;
+  padding-top: 20px;
+}
+.portlist p {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
+.portlist li {
+  padding-left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eeeeee;
+  width: 373px;
+}
+.footer {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--eights-text-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.adress {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.footer li {
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
