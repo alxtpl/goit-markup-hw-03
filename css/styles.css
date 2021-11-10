@@ -1,0 +1,183 @@
+/* background: #212121;t
+background: #FFFFFF;t
+background: #757575;t
+background: #2196F3;t
+
+background: #000000;t
+background: #F5F4FA;t
+background: rgba(255, 255, 255, 0.6) ;t
+ */
+/* 
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+  --first-text-color: #212121;
+  --second-text-color: #ffffff;
+  --third-text-color: #757575;
+  --fourth-text-color: #2196f3;
+  --fifth-text-color: #000000;
+  --sixth-text-color: #f5f4fa;
+  --seventh-text-color: rgba(255, 255, 255, 0.6);
+  --eights-text-color: #2f303a;
+}
+body {
+  background-color: var(--second-text-color);
+  color: var(--third-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+  list-style: none;
+}
+
+.hightitle,
+.whatwedotitle,
+.teamtitle,
+.teammember {
+  color: var(--first-text-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Logo */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  color: var(--fifth-text-color);
+}
+
+/* Buttons */ /* Contacts */
+
+.buttons {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.linkcolor {
+  color: var(--first-text-color);
+}
+.contactcolor {
+  color: var(--third-text-color);
+}
+.linkcolor:hover,
+.contactcolor:hover,
+.logoweb,
+.current {
+  color: var(--fourth-text-color);
+}
+/* Order banner */
+.banerbgcolor {
+  background-color: var(--eights-text-color);
+  /* сделал чтоб видно было текст */
+}
+.banertitle,
+.banerbutton,
+.adress,
+.studio,
+.portbody button:hover,
+.portbody button:focus {
+  color: var(--second-text-color);
+  font-style: normal;
+}
+.banertitle {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.banerbutton {
+  background-color: var(--fourth-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+/* Highlights */
+.hightitle {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* What we do */
+.whatwedotitle,
+.teamtitle {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Team */
+.teammember,
+.teamrole {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.teamrole {
+  font-weight: 400;
+}
+
+/* Contacts */
+.contacts {
+  color: var(--seventh-text-color);
+}
+main p {
+  font-weight: 400;
+}
+/* -------------------------------------- */
+/* Portfolio page */
+.portbody {
+  color: var(--first-text-color);
+}
+
+.portbody button {
+  background-color: var(--sixth-text-color);
+  color: var(--first-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 4px;
+}
+.portbody button:hover,
+.portbody button:focus {
+  background-color: var(--fourth-text-color);
+  box-shadow: 0 4px 2px -1px rgba(172, 186, 198, 0.418);
+}
+.portbody h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portbody p {
+  color: var(--third-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
