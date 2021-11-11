@@ -20,8 +20,8 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <div class="container header-pos">
+    <header class="header-pos">
+      <div class="sectionhead">
         <nav class="nav">
           <!-- Logo -->
           <a href="./index.html" class="logo">
@@ -45,7 +45,7 @@
           </ul>
         </nav>
         <!-- Contacts -->
-        <ul>
+        <ul class="headercontacts">
           <li>
             <a href="mailto:info@devstudio.com" class="buttons contactcolor">
               info@devstudio.com
@@ -65,9 +65,10 @@
         <h1 class="banertitle">Эффективные решения для вашего бизнеса</h1>
         <button class="banerbutton" type="button">Заказать услугу</button>
       </section>
-      <div class="container">
-        <!--Highlights-->
-        <section class="highlights section">
+
+      <!--Highlights-->
+      <section class="highlights">
+        <div class="section">
           <h2 style="display: none">Наши сильные стороны</h2>
           <ul>
             <li>
@@ -99,52 +100,55 @@
               </p>
             </li>
           </ul>
-        </section>
-        <!--What we do-->
-        <section class="whatwedo section">
-          <h2 class="whatwedotitle">Чем мы занимаемся</h2>
-          <ul>
-            <li>
-              <img src="./images/keyb.jpg" alt="keyboards" width="370" />
-            </li>
-            <li>
-              <img src="./images/phone.jpg" alt="phones" width="370" />
-            </li>
-            <li>
-              <img src="./images/hex.jpg" alt="hexagons" width="370" />
-            </li>
-          </ul>
-        </section>
-      </div>
-      <!--Team-->
-      <section class="team container section">
-        <h2 class="teamtitle">Наша команда</h2>
+        </div>
+      </section>
+      <!--What we do-->
+      <section class="whatwedo section">
+        <h2 class="whatwedotitle">Чем мы занимаемся</h2>
         <ul>
           <li>
-            <img src="./images/igor.jpg" alt="Igor" width="270" />
-            <h3 class="teammember">Игорь Демьяненко</h3>
-            <p class="teamrole">Product Designer</p>
+            <img src="./images/keyb.jpg" alt="keyboards" width="370" />
           </li>
           <li>
-            <img src="./images/olga.jpg" alt="Olga" width="270" />
-            <h3 class="teammember">Ольга Репина</h3>
-            <p class="teamrole">Frontend Developer</p>
+            <img src="./images/phone.jpg" alt="phones" width="370" />
           </li>
           <li>
-            <img src="./images/nikola.jpg" alt="Mikola" width="270" />
-            <h3 class="teammember">Николай Тарасов</h3>
-            <p class="teamrole">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/mihail.jpg" alt="Mihail" width="270" />
-            <h3 class="teammember">Михаил Ермаков</h3>
-            <p class="teamrole">UI Designer</p>
+            <img src="./images/hex.jpg" alt="hexagons" width="370" />
           </li>
         </ul>
       </section>
+
+      <!--Team-->
+      <section class="team">
+        <div class="section">
+          <h2 class="teamtitle">Наша команда</h2>
+          <ul class="teamlist">
+            <li>
+              <img src="./images/igor.jpg" alt="Igor" width="270" />
+              <h3 class="teammember">Игорь Демьяненко</h3>
+              <p class="teamrole">Product Designer</p>
+            </li>
+            <li>
+              <img src="./images/olga.jpg" alt="Olga" width="270" />
+              <h3 class="teammember">Ольга Репина</h3>
+              <p class="teamrole">Frontend Developer</p>
+            </li>
+            <li>
+              <img src="./images/nikola.jpg" alt="Mikola" width="270" />
+              <h3 class="teammember">Николай Тарасов</h3>
+              <p class="teamrole">Marketing</p>
+            </li>
+            <li>
+              <img src="./images/mihail.jpg" alt="Mihail" width="270" />
+              <h3 class="teammember">Михаил Ермаков</h3>
+              <p class="teamrole">UI Designer</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="sectionfooter">
         <!-- Logo -->
         <a href="./index.html" class="logo">
           <span class="logoweb">Web</span><span class="studio">Studio</span>
