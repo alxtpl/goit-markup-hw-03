@@ -61,7 +61,7 @@ a {
   border-bottom-color: var(--ninth-text-color);
 }
 .sectionhead {
-  width: 1170px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -127,7 +127,7 @@ nav,
 /* main */
 
 .section {
-  width: 1170px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 94px;
@@ -235,7 +235,7 @@ nav,
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 /* Team */
 .team {
@@ -251,8 +251,9 @@ nav,
 .teammember {
   font-weight: 500;
 }
-.teamtitle {
-  padding-bottom: 50px;
+.teamcont {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .teammember,
 .teamrole {
@@ -260,11 +261,10 @@ nav,
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 30px;
 }
 .teamrole {
   margin-top: 10px;
-  padding-bottom: 30px;
+
   font-weight: 400;
 }
 
@@ -281,16 +281,12 @@ main p {
   color: var(--first-text-color);
 }
 .sectionportmain {
-  width: 1170px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .buttonsfilt {
-  padding-bottom: 34px;
+  margin-bottom: 50px;
 }
 .buttonsfilt li {
   margin-right: 8px;
@@ -335,16 +331,10 @@ main p {
   letter-spacing: 0.03em;
 }
 .portlist h2 {
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 4px;
-  padding-top: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
 }
-.portlist p {
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 20px;
-}
+
 .portlist li {
   padding-left: 0;
   border-style: solid;
@@ -359,12 +349,20 @@ main p {
 .portlist {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -50px;
+  margin-bottom: -50px;
 }
 .portlist img,
 .whatwedo img,
 .teamlist img {
   max-width: 100%;
   height: auto;
+}
+.portlistcont {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .portlist li {
   margin-right: 30px;
@@ -391,7 +389,7 @@ main p {
   margin-bottom: 9px;
 }
 .sectionfooter {
-  width: 1170px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
