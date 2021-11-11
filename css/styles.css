@@ -20,6 +20,7 @@ font-family: 'Roboto', sans-serif; */
   --sixth-text-color: #f5f4fa;
   --seventh-text-color: rgba(255, 255, 255, 0.6);
   --eights-text-color: #2f303a;
+  --ninth-text-color: #ececec;
 }
 body {
   background-color: var(--second-text-color);
@@ -47,10 +48,37 @@ a {
   text-decoration: none;
 }
 /* header */
+
 .header-pos {
   padding-top: 24px;
   padding-bottom: 25px;
   padding-left: 215px;
+  display: flex;
+  border-style: solid;
+  border-width: 0.5px;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-color: var(--ninth-text-color);
+}
+.header-pos ul,
+.header-pos,
+nav,
+.highlights ul,
+.whatwedo ul,
+.team ul,
+.buttonsfilt {
+  align-items: center;
+  display: flex;
+}
+.highlights ul,
+.whatwedo ul,
+.team ul,
+.buttonsfilt {
+  justify-content: center;
+}
+.header-pos li:not(:last-child) {
+  margin-right: 40px;
 }
 /* Logo */
 
@@ -74,6 +102,12 @@ a {
 }
 .contactcolor {
   color: var(--third-text-color);
+}
+.logo {
+  margin-right: 93px;
+}
+.nav {
+  margin-right: auto;
 }
 .linkcolor:hover,
 .contactcolor:hover,
@@ -155,8 +189,13 @@ a {
   padding-bottom: 47px;
 }
 .highlights li,
+.whatwedo li,
+.team li {
+  margin-right: 30px;
+}
+.highlights li,
 .highlights p {
-  max-width: 270px;
+  width: 270px;
 }
 .hightitle {
   font-weight: 700;
@@ -179,6 +218,14 @@ a {
   padding-bottom: 50px;
 }
 /* Team */
+.team {
+  background-color: var(--sixth-text-color);
+}
+.team.container.section {
+  padding-left: 215px;
+  padding-right: 215px;
+  width: 1600px;
+}
 .team li {
   width: 270px;
   box-shadow: 0 4px 2px -1px rgba(172, 186, 198);
@@ -220,6 +267,9 @@ main p {
 .buttonsfilt {
   padding-top: 94px;
   padding-bottom: 34px;
+}
+.buttonsfilt li {
+  margin-right: 8px;
 }
 .portbody button {
   background-color: var(--sixth-text-color);
@@ -272,7 +322,25 @@ main p {
   border-style: solid;
   border-width: 1px;
   border-color: #eeeeee;
-  width: 373px;
+  width: 370px;
+
+  /* width: calc((100%-60px) / 3);не работает */
+}
+
+.portlist {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+}
+.portlist li {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.portlist :nth-child(3n) {
+  margin-right: 0;
+}
+.portlist :nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 .footer {
   width: 1600px;
